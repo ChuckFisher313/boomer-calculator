@@ -5,10 +5,16 @@ import './style.css';
 import AppForm from './AppForm';
 import AppResults from './AppResults';
 
+import logo from './logo.png';
 
 function App (){
 	const [year, setYear] = useState('');
 	const [amount, setAmount] = useState('');
+
+	const resetForm = () => {
+		setYear('');
+		setAmount('');
+	}
 
   	const submitForm = (formState) => {
 		console.log('App.js: this.submitForm() invoked');
@@ -27,16 +33,16 @@ function App (){
 		setAmount(formState.enterAmount);
   	}
 
-    	return (
+	return (
 		<div className="container">
                 	<div className="row">
           			<div className="d-none d-md-block col-md-3"></div>
           			<div className="col-12 col-md-6">
                 			<div className ="headerdiv">
-                  				<img className ="img-fluid mt-1 mt-md-5 logo" src="images/logo.png"/>
+                  				<img className ="img-fluid mt-1 mt-md-5 logo" src={logo} onClick={resetForm} />
                 			</div>
 {
-  year && amount ? <AppResults year={year} amount={amount}/> :  <AppForm submit={submitForm} />
+  year && amount ? <AppResults year={year} amount={amount} resetForm={resetForm} /> :  <AppForm submit={submitForm} />
 }
 
 				</div>

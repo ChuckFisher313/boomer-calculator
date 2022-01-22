@@ -1,0 +1,442 @@
+{
+  "1913": {
+    "amount": 1,
+    "inflation_rate": 0.02
+  },
+  "1914": {
+    "amount": 1.01,
+    "inflation_rate": 0.01
+  },
+  "1915": {
+    "amount": 1.02,
+    "inflation_rate": 0.01
+  },
+  "1916": {
+    "amount": 1.1,
+    "inflation_rate": 0.08
+  },
+  "1917": {
+    "amount": 1.29,
+    "inflation_rate": 0.17
+  },
+  "1918": {
+    "amount": 1.53,
+    "inflation_rate": 0.18
+  },
+  "1919": {
+    "amount": 1.75,
+    "inflation_rate": 0.15
+  },
+  "1920": {
+    "amount": 2.02,
+    "inflation_rate": 0.16
+  },
+  "1921": {
+    "amount": 1.81,
+    "inflation_rate": -0.11
+  },
+  "1922": {
+    "amount": 1.7,
+    "inflation_rate": -0.06
+  },
+  "1923": {
+    "amount": 1.73,
+    "inflation_rate": 0.02
+  },
+  "1924": {
+    "amount": 1.73,
+    "inflation_rate": 0
+  },
+  "1925": {
+    "amount": 1.77,
+    "inflation_rate": 0.02
+  },
+  "1926": {
+    "amount": 1.79,
+    "inflation_rate": 0.01
+  },
+  "1927": {
+    "amount": 1.76,
+    "inflation_rate": -0.02
+  },
+  "1928": {
+    "amount": 1.73,
+    "inflation_rate": -0.02
+  },
+  "1929": {
+    "amount": 1.73,
+    "inflation_rate": 0
+  },
+  "1930": {
+    "amount": 1.69,
+    "inflation_rate": -0.02
+  },
+  "1931": {
+    "amount": 1.54,
+    "inflation_rate": -0.09
+  },
+  "1932": {
+    "amount": 1.38,
+    "inflation_rate": -0.1
+  },
+  "1933": {
+    "amount": 1.31,
+    "inflation_rate": -0.05
+  },
+  "1934": {
+    "amount": 1.35,
+    "inflation_rate": 0.03
+  },
+  "1935": {
+    "amount": 1.38,
+    "inflation_rate": 0.02
+  },
+  "1936": {
+    "amount": 1.4,
+    "inflation_rate": 0.01
+  },
+  "1937": {
+    "amount": 1.45,
+    "inflation_rate": 0.04
+  },
+  "1938": {
+    "amount": 1.42,
+    "inflation_rate": -0.02
+  },
+  "1939": {
+    "amount": 1.4,
+    "inflation_rate": -0.01
+  },
+  "1940": {
+    "amount": 1.41,
+    "inflation_rate": 0.01
+  },
+  "1941": {
+    "amount": 1.48,
+    "inflation_rate": 0.05
+  },
+  "1942": {
+    "amount": 1.65,
+    "inflation_rate": 0.11
+  },
+  "1943": {
+    "amount": 1.75,
+    "inflation_rate": 0.06
+  },
+  "1944": {
+    "amount": 1.78,
+    "inflation_rate": 0.02
+  },
+  "1945": {
+    "amount": 1.82,
+    "inflation_rate": 0.02
+  },
+  "1946": {
+    "amount": 1.97,
+    "inflation_rate": 0.08
+  },
+  "1947": {
+    "amount": 2.25,
+    "inflation_rate": 0.14
+  },
+  "1948": {
+    "amount": 2.43,
+    "inflation_rate": 0.08
+  },
+  "1949": {
+    "amount": 2.4,
+    "inflation_rate": -0.01
+  },
+  "1950": {
+    "amount": 2.43,
+    "inflation_rate": 0.01
+  },
+  "1951": {
+    "amount": 2.63,
+    "inflation_rate": 0.08
+  },
+  "1952": {
+    "amount": 2.68,
+    "inflation_rate": 0.02
+  },
+  "1953": {
+    "amount": 2.7,
+    "inflation_rate": 0.01
+  },
+  "1954": {
+    "amount": 2.72,
+    "inflation_rate": 0.01
+  },
+  "1955": {
+    "amount": 2.71,
+    "inflation_rate": 0
+  },
+  "1956": {
+    "amount": 2.75,
+    "inflation_rate": 0.01
+  },
+  "1957": {
+    "amount": 2.84,
+    "inflation_rate": 0.03
+  },
+  "1958": {
+    "amount": 2.92,
+    "inflation_rate": 0.03
+  },
+  "1959": {
+    "amount": 2.94,
+    "inflation_rate": 0.01
+  },
+  "1960": {
+    "amount": 2.99,
+    "inflation_rate": 0.02
+  },
+  "1961": {
+    "amount": 3.02,
+    "inflation_rate": 0.01
+  },
+  "1962": {
+    "amount": 3.05,
+    "inflation_rate": 0.01
+  },
+  "1963": {
+    "amount": 3.09,
+    "inflation_rate": 0.01
+  },
+  "1964": {
+    "amount": 3.13,
+    "inflation_rate": 0.01
+  },
+  "1965": {
+    "amount": 3.18,
+    "inflation_rate": 0.02
+  },
+  "1966": {
+    "amount": 3.27,
+    "inflation_rate": 0.03
+  },
+  "1967": {
+    "amount": 3.37,
+    "inflation_rate": 0.03
+  },
+  "1968": {
+    "amount": 3.52,
+    "inflation_rate": 0.04
+  },
+  "1969": {
+    "amount": 3.71,
+    "inflation_rate": 0.05
+  },
+  "1970": {
+    "amount": 3.92,
+    "inflation_rate": 0.06
+  },
+  "1971": {
+    "amount": 4.09,
+    "inflation_rate": 0.04
+  },
+  "1972": {
+    "amount": 4.22,
+    "inflation_rate": 0.03
+  },
+  "1973": {
+    "amount": 4.48,
+    "inflation_rate": 0.06
+  },
+  "1974": {
+    "amount": 4.98,
+    "inflation_rate": 0.11
+  },
+  "1975": {
+    "amount": 5.43,
+    "inflation_rate": 0.09
+  },
+  "1976": {
+    "amount": 5.75,
+    "inflation_rate": 0.06
+  },
+  "1977": {
+    "amount": 6.12,
+    "inflation_rate": 0.07
+  },
+  "1978": {
+    "amount": 6.59,
+    "inflation_rate": 0.08
+  },
+  "1979": {
+    "amount": 7.33,
+    "inflation_rate": 0.11
+  },
+  "1980": {
+    "amount": 8.32,
+    "inflation_rate": 0.13
+  },
+  "1981": {
+    "amount": 9.18,
+    "inflation_rate": 0.1
+  },
+  "1982": {
+    "amount": 9.75,
+    "inflation_rate": 0.06
+  },
+  "1983": {
+    "amount": 10.06,
+    "inflation_rate": 0.03
+  },
+  "1984": {
+    "amount": 10.49,
+    "inflation_rate": 0.04
+  },
+  "1985": {
+    "amount": 10.87,
+    "inflation_rate": 0.04
+  },
+  "1986": {
+    "amount": 11.07,
+    "inflation_rate": 0.02
+  },
+  "1987": {
+    "amount": 11.47,
+    "inflation_rate": 0.04
+  },
+  "1988": {
+    "amount": 11.95,
+    "inflation_rate": 0.04
+  },
+  "1989": {
+    "amount": 12.53,
+    "inflation_rate": 0.05
+  },
+  "1990": {
+    "amount": 13.2,
+    "inflation_rate": 0.05
+  },
+  "1991": {
+    "amount": 13.76,
+    "inflation_rate": 0.04
+  },
+  "1992": {
+    "amount": 14.17,
+    "inflation_rate": 0.03
+  },
+  "1993": {
+    "amount": 14.6,
+    "inflation_rate": 0.03
+  },
+  "1994": {
+    "amount": 14.97,
+    "inflation_rate": 0.03
+  },
+  "1995": {
+    "amount": 15.39,
+    "inflation_rate": 0.03
+  },
+  "1996": {
+    "amount": 15.85,
+    "inflation_rate": 0.03
+  },
+  "1997": {
+    "amount": 16.21,
+    "inflation_rate": 0.02
+  },
+  "1998": {
+    "amount": 16.46,
+    "inflation_rate": 0.02
+  },
+  "1999": {
+    "amount": 16.83,
+    "inflation_rate": 0.02
+  },
+  "2000": {
+    "amount": 17.39,
+    "inflation_rate": 0.03
+  },
+  "2001": {
+    "amount": 17.89,
+    "inflation_rate": 0.03
+  },
+  "2002": {
+    "amount": 18.17,
+    "inflation_rate": 0.02
+  },
+  "2003": {
+    "amount": 18.59,
+    "inflation_rate": 0.02
+  },
+  "2004": {
+    "amount": 19.08,
+    "inflation_rate": 0.03
+  },
+  "2005": {
+    "amount": 19.73,
+    "inflation_rate": 0.03
+  },
+  "2006": {
+    "amount": 20.36,
+    "inflation_rate": 0.03
+  },
+  "2007": {
+    "amount": 20.94,
+    "inflation_rate": 0.03
+  },
+  "2008": {
+    "amount": 21.75,
+    "inflation_rate": 0.04
+  },
+  "2009": {
+    "amount": 21.67,
+    "inflation_rate": 0
+  },
+  "2010": {
+    "amount": 22.03,
+    "inflation_rate": 0.02
+  },
+  "2011": {
+    "amount": 22.72,
+    "inflation_rate": 0.03
+  },
+  "2012": {
+    "amount": 23.19,
+    "inflation_rate": 0.02
+  },
+  "2013": {
+    "amount": 23.53,
+    "inflation_rate": 0.01
+  },
+  "2014": {
+    "amount": 23.91,
+    "inflation_rate": 0.02
+  },
+  "2015": {
+    "amount": 23.94,
+    "inflation_rate": 0
+  },
+  "2016": {
+    "amount": 24.24,
+    "inflation_rate": 0.01
+  },
+  "2017": {
+    "amount": 24.76,
+    "inflation_rate": 0.02
+  },
+  "2018": {
+    "amount": 25.38,
+    "inflation_rate": 0.02
+  },
+  "2019": {
+    "amount": 25.82,
+    "inflation_rate": 0.02
+  },
+  "2020": {
+    "amount": 26.14,
+    "inflation_rate": 0.01
+  },
+  "2021": {
+    "amount": 27.3,
+    "inflation_rate": 0.04
+  },
+  "2022": {
+    "amount": 28.08,
+    "inflation_rate": 0.03
+  }
+}
