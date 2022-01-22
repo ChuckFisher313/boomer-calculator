@@ -11,9 +11,7 @@ function AppForm(props){
     		console.log('handleChange: event.target.name = '+event.target.name);
     		console.log('handleChange: event.target.value = '+event.target.value);
 
-                let tmp = {};
-                tmp[event.target.name] = event.target.value;
-                setState({...state,...tmp});
+                setState({...state,...{[event.target.name]: event.target.value}});
   	};
 
   	const submitForm = (event) => {
