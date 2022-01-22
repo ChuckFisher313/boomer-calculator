@@ -20,6 +20,7 @@ function AppForm(props){
   	};
 
     return (
+<>
 <form  onSubmit={submitForm}>
 	<div className="form-floating mb-3">
         	<input id="enterYear" name="enterYear" className="form-control" type='text' placeholder="Enter Year" required onChange={handleChange}/>
@@ -35,7 +36,8 @@ function AppForm(props){
 		<button className="btn btn-light btn-lg px-5">Submit</button>
         </div>
 </form>
-
+<div>SOME HINT TEXT HERE</div>
+</>
     );
 }
 
