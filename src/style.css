@@ -2,12 +2,27 @@ body {
     background-color: rgb(54, 146, 207);
 }
 
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content {
+    max-width: 600px;
+}
+
 .logo {
 max-height: 250px;
 }
 
-.resultsText {
+.results {
     color: #fff;
     font-size: 24pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.funFacts {
+    color: #fff;
+    font-size: 18pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

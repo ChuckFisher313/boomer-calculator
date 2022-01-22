@@ -36,7 +36,6 @@ function AppForm(props){
 		<button className="btn btn-light btn-lg px-5">Submit</button>
         </div>
 </form>
-<div>SOME HINT TEXT HERE</div>
 </>
     );
 }

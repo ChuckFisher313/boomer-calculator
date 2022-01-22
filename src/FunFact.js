@@ -3,35 +3,48 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
-const fun_facts = require("./funFacts.json");
+const cpiData = require("./cpiData.json");
+const funFacts = require("./funFacts.json");
 
 function FunFact(props){
 	console.log('FunFact invoked');
 	console.log('props.year: '+props.year);
-	console.log('fun_facts: '+JSON.stringify(fun_facts));
+	console.log('funFacts: '+JSON.stringify(funFacts));
 
-	const replaceVariables = (str) => {
-		str = str.replace("$year",props.year);
-		str = str.replace("$value","VALUE_HERE");
-		str = str.replace("$inflated_value","INFLATED_VALUE_HERE");
-		return str;
+	const replaceVariables = (str, val) => {
+		if(str){
+			str = str.replace("$year",props.year);
+			str = str.replace("$value",val.toFixed(2));
+			let inflated_value =  (cpiData['CURRENT'] / cpiData[props.year]) * val;
+			str = str.replace("$inflated_value",inflated_value.toFixed(2));
+			return str;
+		}
+		return "";
 	}
 
-	if(props.year && fun_facts[props.year]){
+	if(props.year && funFacts[props.year]){
 		console.log('display fun fact');
 
-		let index = getRandomInt(fun_facts[props.year].length);
+		let index = getRandomInt(funFacts[props.year].length);
 		console.log('index: '+index);
 
-		console.log('fun_facts[props.year][index]: '+JSON.stringify(fun_facts[props.year][index]));
+		console.log('fun_facts[props.year][index]: '+JSON.stringify(funFacts[props.year][index]));
 
-		let title = replaceVariables(fun_facts[props.year][index].title);
-		let additional = replaceVariables(fun_facts[props.year][index].additional);
+		let value = funFacts[props.year][index].value;
+		let title = replaceVariables(funFacts[props.year][index].title, value);
+		let additional = replaceVariables(funFacts[props.year][index].additional, value);
+		let comparison = replaceVariables(funFacts[props.year][index].comparison, value);
+		let image = funFacts[props.year][index].img;
 
 		return (
 			<>
-				<p>{title}</p>
-				<p>{additional}</p>
+				<div className='px-3'>
+					<p className="funFacts">{title}</p>
+					<p className="funFacts">{additional}</p>
+					{comparison ? <p className="funFacts">{comparison}</p> : null }
+				</div>
+
+				<img src={"images/"+props.year+"/"+image} />
 			</>
 		);
 	}

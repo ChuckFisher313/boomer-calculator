@@ -43,22 +43,17 @@ function App (){
 	  }
 
 	return (
-		<div className="container">
-                	<div className="row">
-          			<div className="d-none d-md-block col-md-3"></div>
-          			<div className="col-12 col-md-6">
-                			<div className ="headerdiv">
-                  				<img className ="img-fluid mt-1 mt-md-5 logo" src={logo} onClick={resetForm} />
-                			</div>
+		<div className="container d-flex justify-content-center">
+          	<div className="content">
+                <div className ="headerdiv">
+                  	<img className ="img-fluid mt-1 mt-md-5 logo" src={logo} onClick={resetForm} />
+                </div>
 {
   year && amount ? showResults() :  <AppForm submit={submitForm} />
 }
 
-				</div>
-        			<div className="d-none d-md-block col-md-3"></div>
-      			</div>
-
-      		</div>
+			</div>
+      	</div>
     	);
 }
 

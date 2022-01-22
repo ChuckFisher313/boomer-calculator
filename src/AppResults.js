@@ -20,13 +20,13 @@ function AppResults(props){
 
     	return (
 		<>
-			<p className='resultsText'> ${props.amount} in {props.year} would be worth ${todayAmount()} today</p>
+			<p className='results'> ${props.amount} in {props.year} would be worth ${todayAmount()} today</p>
 
 			<div className="d-flex justify-content-center">
                 		<button className="btn btn-light btn-lg px-5" onClick={props.resetForm}>Try again?</button>
         		</div>
 
-			<FunFact year={props.year} />
+			<div className="py-3"><FunFact year={props.year} /></div>
 		</>
     	);
 }
