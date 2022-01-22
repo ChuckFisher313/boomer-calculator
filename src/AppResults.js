@@ -20,7 +20,7 @@ function AppResults(props){
 
     	return (
 		<>
-			<p className='results'> ${props.amount} in {props.year} would be worth ${todayAmount()} today</p>
+			<p className='results text-center'> ${props.amount} in {props.year} would be worth ${todayAmount()} today</p>
 
 			<div className="d-flex justify-content-center">
                 		<button className="btn btn-light btn-lg px-5" onClick={props.resetForm}>Try again?</button>
