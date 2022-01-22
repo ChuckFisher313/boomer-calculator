@@ -4,17 +4,17 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
-const inflation_rates = require('./inflationRates.json');
+const cpiData = require('./cpiData.json');
 const fun_facts = require("./funFacts.json");
 
 function AppResults(props){
 	const todayAmount = () => {
-		let todayAmnt = props.amount;
-		for(let i = props.year; i <= 2021; i++){
-			console.log('i = '+i);
-			todayAmnt = todayAmnt * (1 + inflation_rates[i].inflation_rate);
-			console.log('todayAmnt = '+todayAmnt);
-		}
+		console.log('cpiData: '+JSON.stringify(cpiData));
+		console.log('cpi value: '+JSON.stringify(cpiData[props.year]));
+
+		let todayAmnt = parseFloat(props.amount);
+		todayAmnt = (cpiData['2020'] / cpiData[props.year]) * props.amount;
+		console.log('todayAmnt: ' + JSON.stringify(todayAmnt));
 		return todayAmnt.toFixed(2);
 	}
 
