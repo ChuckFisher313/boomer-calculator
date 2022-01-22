@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
+import ErrorBoundary from './ErrorBoundary';
 import AppForm from './AppForm';
 import AppResults from './AppResults';
 
@@ -33,6 +34,14 @@ function App (){
 		setAmount(formState.enterAmount);
   	}
 
+	  const showResults = () => {
+		  return (
+			<ErrorBoundary>
+				<AppResults year={year} amount={amount} resetForm={resetForm} />
+			</ErrorBoundary>
+		  )
+	  }
+
 	return (
 		<div className="container">
                 	<div className="row">
@@ -42,7 +51,7 @@ function App (){
                   				<img className ="img-fluid mt-1 mt-md-5 logo" src={logo} onClick={resetForm} />
                 			</div>
 {
-  year && amount ? <AppResults year={year} amount={amount} resetForm={resetForm} /> :  <AppForm submit={submitForm} />
+  year && amount ? showResults() :  <AppForm submit={submitForm} />
 }
 
 				</div>
