@@ -13,7 +13,7 @@ function AppResults(props){
 		console.log('cpi value: '+JSON.stringify(cpiData[props.year]));
 
 		let todayAmnt = parseFloat(props.amount);
-		todayAmnt = (cpiData['2021'] / cpiData[props.year]) * props.amount;
+		todayAmnt = (cpiData['CURRENT'] / cpiData[props.year]) * props.amount;
 		console.log('todayAmnt: ' + JSON.stringify(todayAmnt));
 		return todayAmnt.toFixed(2);
 	}
