@@ -31,17 +31,17 @@ function FunFact(props){
 		console.log('fun_facts[props.year][index]: '+JSON.stringify(funFacts[props.year][index]));
 
 		let value = funFacts[props.year][index].value;
-		let title = replaceVariables(funFacts[props.year][index].title, value);
-		let additional = replaceVariables(funFacts[props.year][index].additional, value);
-		let comparison = replaceVariables(funFacts[props.year][index].comparison, value);
+		let info1 = replaceVariables(funFacts[props.year][index].info1, value);
+		let info2 = replaceVariables(funFacts[props.year][index].info2, value);
+		let info3 = replaceVariables(funFacts[props.year][index].info3, value);
 		let image = funFacts[props.year][index].img;
 
 		return (
 			<>
 				<div className='px-3'>
-					<p className="funFacts">{title}</p>
-					<p className="funFacts">{additional}</p>
-					{comparison ? <p className="funFacts">{comparison}</p> : null }
+					<p className="funFacts">{info1}</p>
+					{info2 ? <p className="funFacts">{info2}</p> : null }
+					{info3 ? <p className="funFacts">{info3}</p> : null }
 				</div>
 
 				<img src={"images/"+props.year+"/"+image} />
