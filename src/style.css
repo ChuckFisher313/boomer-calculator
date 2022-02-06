@@ -15,13 +15,32 @@ img {
 max-height: 250px;
 }
 
-.results {
+#results {
+    border-style: solid;
+    border-color:#fff;
+    border-width: 3pt;
+    border-radius: 10px;
+}
+
+#results p {
+    color: #fff;
+    font-size: 24pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.funFactsTitle {
     color: #fff;
     font-size: 24pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .funFacts {
+    color: #fff;
+    font-size: 18pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hint {
     color: #fff;
     font-size: 18pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

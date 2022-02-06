@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Hint from './Hint';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
@@ -36,6 +37,7 @@ function AppForm(props){
 		<button className="btn btn-light btn-lg px-5">Submit</button>
         </div>
 </form>
+<div className='my-3'><Hint /></div>
 </>
     );
 }
