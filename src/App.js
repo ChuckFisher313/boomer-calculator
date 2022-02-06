@@ -7,6 +7,7 @@ import AppForm from './AppForm';
 import AppResults from './AppResults';
 
 import logo from './logo.png';
+import AvocadoToast from './AvocadoToast.svg';
 
 function App (){
 	const [year, setYear] = useState('');
@@ -43,6 +44,7 @@ function App (){
 	  }
 
 	return (
+		<>
 		<div className="container d-flex justify-content-center">
           	<div className="content">
                 <div className ="headerdiv">
@@ -54,6 +56,8 @@ function App (){
 
 			</div>
       	</div>
+		  <div id='avocado'><img src={AvocadoToast} /></div>
+		  </>
     	);
 }
 

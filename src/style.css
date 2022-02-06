@@ -45,3 +45,20 @@ max-height: 250px;
     font-size: 18pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#avocado {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 20%;
+}
+
+#avocado:hover {
+    transform: rotate(20deg);
+}
+
+@media (min-width: 576px) {
+    #avocado {
+        width: 5%;
+    }
+ }
