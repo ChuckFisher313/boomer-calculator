@@ -1,14 +1,14 @@
 {
   "1989": [
 		{
-			"info1": "In $year the cost of a Detroit Lions NFL playoff ticket was $value.",
+			"info1": "In $year the cost of a Detroit Lions NFL playoff ticket was <b>$value</b>.",
 			"info2": "$value in $year would be worth $inflated_value today, when adjusted for inflation.",
 			"info3":  "The average NFL playoff ticket today costs $275",		
 			"img": "lionsticket.png",
 			"value": 30.00
 		},
 		{
-			"info1": "In $year the cost of a Detroit Lions NFL playoff ticket was $value.",
+			"info1": "In $year the cost of a Detroit Lions NFL playoff ticket was <b>$value</b>.",
 			"info2": "$value in $year would be worth $inflated_value today, when adjusted for inflation.",
 			"info3":  "The average NFL playoff ticket today costs $276",			
 			"img": "lionsticket.png",

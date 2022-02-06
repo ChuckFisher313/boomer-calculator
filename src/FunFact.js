@@ -38,10 +38,11 @@ function FunFact(props){
 
 		return (
 			<>
+				<p className='funFactsTitle my-0 text-center'>Fun Fact:</p>
 				<div className='px-3'>
-					<p className="funFacts">{info1}</p>
-					{info2 ? <p className="funFacts">{info2}</p> : null }
-					{info3 ? <p className="funFacts">{info3}</p> : null }
+					<p className="funFacts" dangerouslySetInnerHTML={{ __html: info1 }}></p>
+					{info2 ? <p className="funFacts" dangerouslySetInnerHTML={{ __html: info2 }}></p> : null }
+					{info3 ? <p className="funFacts" dangerouslySetInnerHTML={{ __html: info3 }}></p> : null }
 				</div>
 
 				<img src={"images/"+props.year+"/"+image} />
