@@ -1,0 +1,20 @@
+/***********************/
+/* BOOTSTRAP OVERRIDES */
+/***********************/
+.theme-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: var(--bs-primary-text);
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+.border-primary {
+border-color: var(--bs-primary) !important;
+}
+
+.theme-secondary {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+    color: var(--bs-secondary-text);
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}

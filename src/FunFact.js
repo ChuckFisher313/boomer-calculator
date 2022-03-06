@@ -45,7 +45,7 @@ function FunFact(props){
 					{info3 ? <p className="funFacts" dangerouslySetInnerHTML={{ __html: info3 }}></p> : null }
 				</div>
 
-				<img src={"images/"+props.year+"/"+image} />
+				<img src={"/images/"+props.year+"/"+image} />
 			</>
 		);
 	}

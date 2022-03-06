@@ -46,8 +46,18 @@ max-height: 250px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#avocado {
+#bottom_spacer {
+    height: 15vmax;  
+}
+
+#themebtn {
     position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#avocado {
+    position: fixed;
     bottom: 15px;
     right: 15px;
     width: 20%;
@@ -58,6 +68,10 @@ max-height: 250px;
 }
 
 @media (min-width: 576px) {
+    #bottom_spacer {
+        height: 10vmin;
+    }
+
     #avocado {
         width: 5%;
     }
